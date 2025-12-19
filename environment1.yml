@@ -1,0 +1,24 @@
+name: rps
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - numpy<2
+  - pandas
+  - scipy
+  - scikit-learn
+  - matplotlib
+  - joblib
+  - tqdm
+  - pillow
+  - attrs
+  - cffi
+  - typing_extensions
+  - pip:
+    - sounddevice
+    - opencv-python
+    - mediapipe == 0.10.14
+    - torch 
+    - torchvision 
+    - torchaudio
